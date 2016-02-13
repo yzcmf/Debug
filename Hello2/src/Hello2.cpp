@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Hello.cpp
-// Author      : 
+// Author      :
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
@@ -15,7 +15,7 @@ using namespace std;
 
 int main() {
 
-	float r=0,area=0;
+	float r=0,circle_length=0;//This is the circle length;
 	float cost_price=0,sell_price=0;
 	float profit=0,loss=0;
 
@@ -26,8 +26,8 @@ int main() {
 
     printf("Please enter a float number:\n");
 	scanf("%f",&r);
-	area=PI*r*r;
-	printf("%f\n",area);
+	circle_length=PI*r*2;
+	printf("%f\n",circle_length);
 
 	// For problem two
 
